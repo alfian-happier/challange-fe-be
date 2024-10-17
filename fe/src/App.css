@@ -1,0 +1,78 @@
+.navbar {
+  background-color: #03265e;
+}
+.navbar a {
+  margin-left: 1rem;
+}
+.sub-navbar {
+  padding: 10px;
+  font-weight: bold;
+}
+.sub-navbar a {
+  text-decoration: none;
+}
+.logo {
+  block-size: 2rem;
+}
+
+.background-body {
+  display: flex;
+  flex-direction: column;
+  background-color: #e4e5e7;
+}
+.main-container {
+  margin: 1.5rem;
+  padding: 2.5rem;
+  background-color: #ffffff;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-block-end: 3rem;
+}
+.each-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.each-logo span {
+  text-align: center;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block-end: 1rem;
+}
+.tab-container {
+  padding-inline: 1.5rem;
+  padding-block: 2rem;
+}
+.border-line {
+  border-block-end: 0.4rem solid #209bc0;
+  max-inline-size: 30px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-block-end: 2rem;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
